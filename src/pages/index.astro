@@ -13,40 +13,40 @@ import Section from '@/components/ui/Section.astro';
 const showcases = [
   {
     index: '01',
-    type: 'Editorial',
-    title: 'Ideas with a place to unfold.',
+    type: 'Fotografía',
+    title: 'Realización de fotografía para eventos y clientes.',
     description:
-      'A reading-first blog system with strong rhythm, calm metadata, and focused article pages.',
+      'Realizamos todo tipo de fotografía, solo debe dar las referencias de su agrado luego de agendar su cita.',
     href: '/blog/',
-    cta: 'Enter the journal',
+    cta: 'Visite nuestra galería',
     className: 'showcase--journal',
   },
   {
     index: '02',
-    type: 'Selected work',
-    title: 'Case studies that show the thinking.',
+    type: 'Videografía',
+    title: 'Realización de video para eventos y clientes.',
     description:
-      'A portfolio structure for outcomes, process, roles, and the details behind the final frame.',
+      'Realizamos todo tipo de videos, solo debe dar las referencias de su agrado luego de agendar su cita.',
     href: '/work/',
-    cta: 'Browse selected work',
+    cta: 'Consulte nuestro portfolio',
     className: 'showcase--work',
   },
   {
     index: '03',
-    type: 'Campaign',
-    title: 'A landing page built to persuade quietly.',
+    type: 'Edición',
+    title: 'Edición de videos grabados por usted.',
     description:
-      'Data-driven product storytelling with benefits, pricing, social proof, FAQ, and external calls to action.',
+      'Envíe los archivos tomados de su mano para darles forma en el estilo de reel o cortometraje de su preferencia.',
     href: '/landing/',
-    cta: 'Open the live demo',
+    cta: 'Consulte nuestros trabajos',
     className: 'showcase--landing',
   },
 ];
 ---
 
 <BaseLayout
-  title="One system, three ways to publish"
-  description="A production-ready Astro theme for editorial blogs, portfolios, and focused landing pages."
+  title="Un negocio, tres servicios disponibles"
+  description="Con resultados reales y contenido para respaldar nuestro buen servicio."
 >
   <Header />
 
@@ -54,35 +54,22 @@ const showcases = [
     <section class="home-hero">
       <Container size="xl">
         <div class="home-hero__meta">
-          <span>Astro 7 theme system</span>
-          <span>Edition 2026</span>
+          <span>Chris Barrueta system</span>
+          <span>Actualizado hasta Agosto de 2026</span>
         </div>
         <h1>
-          One atmosphere.<br />
-          <span>Three ways to publish.</span>
+          Nuestro portfolio.<br />
+          <span>Una muestra de los 3 servicios principales.</span>
         </h1>
         <div class="home-hero__footer">
           <p>
-            Astro Haze is a modular showcase for thoughtful writing, selected
-            work, and focused campaigns—fast by default and expressive where it
-            counts.
+            Effer Glass es un negocio que surgió de la necesidad de mejorar
+            los servicios de marketing existentes en la ciudad de Cienfuegos.
           </p>
           <div class="home-hero__actions">
             <Button href="#showcase" variant="solid" size="lg"
-              >Explore the system</Button
+              >Explora el sistema</Button
             >
-            {
-              siteConfig.social.github && (
-                <Button
-                  href={siteConfig.social.github}
-                  external
-                  variant="outline"
-                  size="lg"
-                >
-                  View source <span aria-hidden="true">↗</span>
-                </Button>
-              )
-            }
           </div>
         </div>
         <div class="home-hero__orbit" aria-hidden="true">
