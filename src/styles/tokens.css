@@ -24,10 +24,10 @@
   --glass-sat: 180%;
 
   /* Aurora gradient colors */
-  --aurora-1: hsl(164, 100%, 70%);
-  --aurora-2: hsl(200, 100%, 60%);
-  --aurora-3: hsl(29, 96%, 60%);
-  --aurora-4: hsl(51, 70%, 60%);
+  --aurora-1: hsl(30, 100%, 70%);
+  --aurora-2: hsl(129, 100%, 60%);
+  --aurora-3: hsl(214, 96%, 60%);
+  --aurora-4: hsl(167, 70%, 60%);
 
   /* Base colors */
   --color-bg: hsl(220, 20%, 97%);
