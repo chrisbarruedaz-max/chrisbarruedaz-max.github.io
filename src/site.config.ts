@@ -75,10 +75,10 @@ export interface SiteConfig {
 }
 
 const siteConfig: SiteConfig = {
-  name: 'Astro Haze',
-  title: 'Astro Haze - Glassmorphism Theme',
-  description: 'A beautiful glassmorphism multi-purpose theme for Astro 7',
-  author: 'Your Name',
+  name: 'Effer Glass',
+  title: 'Effer Glass - Clients Portfolio',
+  description: 'Un resumen de los servicios brindados por nuestro negocio',
+  author: 'Chris Barrueta',
   url: 'https://kpab.github.io/astro-haze',
   ogImage: '/og-image.png',
   twitterHandle: '@yourusername',
@@ -86,18 +86,18 @@ const siteConfig: SiteConfig = {
   ogLocale: 'en_US',
 
   theme: {
-    accentColor: 'hsl(280, 70%, 60%)',
+    accentColor: 'hsl(203, 70%, 60%)',
     defaultColorMode: 'system',
     showThemeToggle: true,
   },
 
   nav: {
     main: [
-      { name: 'Home', href: '/' },
-      { name: 'Blog', href: '/blog/' },
-      { name: 'Portfolio', href: '/work/' },
-      { name: 'Landing', href: '/landing/' },
-      { name: 'About', href: '/about/' },
+      { name: 'Inicio', href: '/' },
+      { name: 'Fotografía', href: '/blog/' },
+      { name: 'Videografía', href: '/work/' },
+      { name: 'Edición', href: '/landing/' },
+      { name: 'Info', href: '/about/' },
     ],
   },
 
@@ -111,9 +111,9 @@ const siteConfig: SiteConfig = {
   },
 
   social: {
-    github: 'https://github.com/yourusername',
-    twitter: 'https://twitter.com/yourusername',
-    linkedin: 'https://linkedin.com/in/yourusername',
+    github: 'https://github.com/chrisbarruedaz-max',
+    instagram: 'https://www.instagram.com/chris_barrueta?igsi=MWJtanV5b2t0dWV3ZA==',
+    youtube: 'https://www.youtube.com/@archris05',
   },
 
   blog: {
